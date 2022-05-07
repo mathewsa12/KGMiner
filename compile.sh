@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "Compile KGMiner..."
-cmake - build .
+cmake --build .
 make gbserver -j4
 
 echo "Download infobox and facts..."
